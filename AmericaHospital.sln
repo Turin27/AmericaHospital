@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericaHospital.API", "AmericaHospital.API\AmericaHospital.API.csproj", "{BFA38975-2003-4DF5-9442-1BA75EEEA910}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - API", "01 - API", "{B76D997D-469D-4FE7-905B-1B39DBA580D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Service", "02 - Service", "{F3C2825F-FB11-43DD-A292-BBB7A4709F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - DAL", "03 - DAL", "{E370630B-CDD2-4D3F-8AA5-D8685A6E2CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Models", "04 - Models", "{D44AC421-D178-4948-8EBE-FFC88BF68D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericaHospital.Services", "AmericaHospital.Services\AmericaHospital.Services.csproj", "{76E06886-BEAD-4B3F-9484-E6758D083671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericaHospital.DAL", "AmericaHospital.DAL\AmericaHospital.DAL.csproj", "{826BA723-8B45-40C2-9FD4-0D9298471C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmericaHospital.Models", "AmericaHospital.Models\AmericaHospital.Models.csproj", "{0D9688D3-704A-40B0-B7C3-39F67D997E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA38975-2003-4DF5-9442-1BA75EEEA910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA38975-2003-4DF5-9442-1BA75EEEA910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA38975-2003-4DF5-9442-1BA75EEEA910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA38975-2003-4DF5-9442-1BA75EEEA910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E06886-BEAD-4B3F-9484-E6758D083671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E06886-BEAD-4B3F-9484-E6758D083671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E06886-BEAD-4B3F-9484-E6758D083671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E06886-BEAD-4B3F-9484-E6758D083671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826BA723-8B45-40C2-9FD4-0D9298471C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826BA723-8B45-40C2-9FD4-0D9298471C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826BA723-8B45-40C2-9FD4-0D9298471C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826BA723-8B45-40C2-9FD4-0D9298471C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9688D3-704A-40B0-B7C3-39F67D997E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9688D3-704A-40B0-B7C3-39F67D997E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9688D3-704A-40B0-B7C3-39F67D997E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9688D3-704A-40B0-B7C3-39F67D997E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFA38975-2003-4DF5-9442-1BA75EEEA910} = {B76D997D-469D-4FE7-905B-1B39DBA580D9}
+		{76E06886-BEAD-4B3F-9484-E6758D083671} = {F3C2825F-FB11-43DD-A292-BBB7A4709F82}
+		{826BA723-8B45-40C2-9FD4-0D9298471C45} = {E370630B-CDD2-4D3F-8AA5-D8685A6E2CEF}
+		{0D9688D3-704A-40B0-B7C3-39F67D997E4B} = {D44AC421-D178-4948-8EBE-FFC88BF68D59}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25C37D2C-29C9-4757-9056-F962E0341540}
+	EndGlobalSection
+EndGlobal
